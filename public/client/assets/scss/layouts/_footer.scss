@@ -1,0 +1,68 @@
+footer {
+    .wrap{
+        background-color: $primary-color;
+    }
+
+        .footer {
+            &-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                padding: 2rem 0;
+                .company {
+                    i{
+                        margin-right: 4px;
+                    }
+                    &-name {
+                        h2 {
+                            font-size: 3.2rem;
+                            text-transform: uppercase;
+                            color: white;
+                            margin: 4px;
+                        }
+                    }
+                    &-address{
+                        font-size: 1.4rem;
+                        color: white;
+                    }
+
+                    &-contact{
+                        display: flex;
+                        align-items: center;
+                      
+                        @include md{
+                            flex-direction: column;
+                        }
+                        @include sm{
+                            flex-direction: column;
+                        }
+                        @include xs{
+                            flex-direction: column;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    .sep{
+        color: white;
+        margin: 0 12px;
+        font-size: 1.4rem;
+    }
+    .coppyright{
+        background:#126ba8;
+        p{
+            color: white;
+            font-size: 1.4rem;
+            text-align: center;
+            filter: brightness(1.3);
+            display: block;
+            width: 100%;
+        }
+    }
+}

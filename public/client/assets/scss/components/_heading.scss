@@ -1,0 +1,19 @@
+.h3-heading{
+    font-size: 3.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 3rem;
+    &::after{
+        content: "";
+        background: url(../imgs/border-ico.png);
+        position: absolute;
+        width: 85px;
+        background-repeat: no-repeat;
+        height: 15px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
