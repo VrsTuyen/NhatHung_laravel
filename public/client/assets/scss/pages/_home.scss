@@ -20,9 +20,6 @@
                 filter: brightness(0.8);
             }
 
-            &.active {
-            }
-
             &-title {
                 position: absolute;
                 left: 0;
@@ -39,9 +36,8 @@
                     font: {
                         family: Oswald;
                         size: 3.6rem;
-                    }
+                    };
 
-                    ;
                     text-transform: uppercase;
                     text-align: center;
                     margin: 0;
@@ -81,7 +77,7 @@
                     }
 
                     @include md {
-                        width: 100px;
+                        width: 0;
                     }
 
                     @include sm {
@@ -427,14 +423,25 @@
                 transition: all .5s;
                 position: relative;
 
+
                 @include lg {
                     height: 150px;
+                    padding: 4px 0;
                 }
 
                 @include md {
                     height: 150px;
+                    padding: 4px 0;
+                }
+                @include sm{
+                    height: 150px;
+                    padding: 4px 0;
                 }
 
+                @include xs{
+                    height: 100px;
+                    padding: 4px 0;
+                }
 
                 &:hover {
                     background-color: rgba($color: $primary-color, $alpha: .35);

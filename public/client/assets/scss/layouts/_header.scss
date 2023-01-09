@@ -188,9 +188,12 @@ header {
             display: inline-block;
 
             @include lg {
+              padding: 12px;
+              font-size: 1.2rem;
+            }
+            @include md{
               padding: 8px;
               font-size: 1.2rem;
-
             }
           }
 

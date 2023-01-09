@@ -53,6 +53,16 @@ footer {
         color: white;
         margin: 0 12px;
         font-size: 1.4rem;
+
+        @include md{
+            visibility: hidden;
+        }
+        @include sm{
+            visibility: hidden;
+        }
+        @include xs{
+            visibility: hidden;
+        }
     }
     .coppyright{
         background:#126ba8;

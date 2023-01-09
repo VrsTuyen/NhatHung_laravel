@@ -42,7 +42,7 @@
                     <a href="" class="header-navigation-menu-item-link">giới thiệu</a>
                 </li>
                 <li class="header-navigation-menu-item">
-                    <a href="" class="header-navigation-menu-item-link">dịch vụ</a>
+                    <a class="header-navigation-menu-item-link">dịch vụ</a>
                         <i class="icon-for-submenu fa-solid fa-chevron-down"></i>
                         <ul class="header-navigation-submenu">
                             <li class="header-navigation-submenu-item"><a href="#">chằng buộc hàng hóa</a></li>
@@ -54,7 +54,7 @@
                         </ul>
                 </li>
                 <li class="header-navigation-menu-item">
-                    <a href="" class="header-navigation-menu-item-link">bảng giá</a>
+                    <a class="header-navigation-menu-item-link">bảng giá</a>
                     <i class="icon-for-submenu fa-solid fa-chevron-down"></i>
                     <ul class="header-navigation-submenu">
                         <li class="header-navigation-submenu-item"><a href="">bảng giá vận chuyển</a></li>
